@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family:cursive;
+}
+.container{
+    margin: 0%;
+    width: 100%;
+    height: 900Px;
+    background-image: url(nature\ \(1\).jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+.parallax h1{
+    position: absolute;
+    border: 2px solid white;
+    background-color: lightblue;
+    text-align: center;
+    margin-top: 27%;
+    margin-left: 42%;
+    padding: 20px;
+    width: 18%;
+    color: rgb(52, 4, 4);
+    border-radius: 10px;
+}
+.parallax h1:hover{
+    background-color: rgb(222, 170, 170);
+    text-shadow: 2rem;
+}
+.content{
+    position: relative;
+    bottom: 20px;
+    margin: 0%;
+    width: 100%;
+    height: 900px;
+    background-image: url(nature2\ \(2\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* .content h2{
+    text-align: center;
+    font-size: 30px;
+    color: lawngreen;
+} */
+.content p{
+    border: 2px solid #ffffff00;
+    color: #9de700;
+    background-color: rgb(27 126 91 / 36%);
+    width: 99.7%;
+    height: 23%;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing:1px;
+    line-height: 26px;
+    font-size: 15px;
+}
+.second{
+    position: relative;
+    bottom: 38px;
+    margin: 0%;
+    width: 100%;
+    height: 939px;
+    background-image: url(nature3\ \(3\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.second  p{
+       /* border: 2px solid #702c2c; */
+    background-color: #1724a08c;
+    color: #e8f707;
+    text-align: justify;
+    font-size: 18px;
+        
+}
+.content h2{
+     position: absolute;
+    border: 2px solid white;
+    background-color: lightblue;
+    text-align: center;
+    margin-top: 27%;
+    margin-left: 42%;
+    padding: 20px;
+    width: 18%;
+    color: rgb(52, 4, 4);
+    border-radius: 10px;
+}
+.content h2:hover{
+    background-color: #e8f707;
+    animation: backwards;
+}
+.second span{
+    border: 2px solid red;
+    background-color: white;
+    display: flex;
+}
